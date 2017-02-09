@@ -1,4 +1,8 @@
+# GENERATED - EDIT Dockerfile.in INSTEAD
 FROM centos:centos7
+
+LABEL name="OSG 3.3 Worker Node Client on EL 7"
+      build-date="20170210"
 
 RUN yum -y install http://repo.grid.iu.edu/osg/3.3/osg-3.3-el7-release-latest.rpm && \
     yum -y install epel-release \
