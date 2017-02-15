@@ -2,7 +2,7 @@
 
 
 set -eu
-DATE=$(date +%Y%m%S)
+DATE=$(date +%Y%m%d)
 
 sed -e '1i\
 # GENERATED - EDIT Dockerfile.in INSTEAD' \
